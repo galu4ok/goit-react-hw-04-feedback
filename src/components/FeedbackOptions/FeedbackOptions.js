@@ -1,4 +1,4 @@
-export const OptionButtons = ({ options, onFeedbackClick }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   // console.log(options);
   return (
     <div>
@@ -6,7 +6,7 @@ export const OptionButtons = ({ options, onFeedbackClick }) => {
         <button
           key={option}
           option={option}
-          onClick={() => onFeedbackClick(option)}
+          onClick={() => onLeaveFeedback(option)}
         >
           {option}
         </button>
