@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
-import bgfeedback from './img/bgfeedback.jpg';
+import bgfeedback from '../img/bgfeedback.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -54,6 +54,7 @@ img {
   background-size: 100%;
    
   width: 500px;
+  height: 400px;
   display: block;
   padding: 30px;
   border-radius: 8px;
