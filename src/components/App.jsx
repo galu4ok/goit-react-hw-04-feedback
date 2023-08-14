@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
+import { GlobalStyle } from './GlobalStyle';
 import { Notification } from './Notification/Notification';
 import { Section } from './Section/Section';
 import { Statistics } from './Statistics.js/Statistics';
@@ -55,6 +56,7 @@ export class App extends Component {
             />
           )}
         </Section>
+        <GlobalStyle />
       </>
     );
   }
